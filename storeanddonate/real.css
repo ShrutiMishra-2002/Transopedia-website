@@ -1,0 +1,122 @@
+*{
+    font-family: monospace;
+}
+.container{
+    background: rgba(255,255,255,0.5);
+    box-shadow: 0px 15px 35px rgba (0,0,0,0.05); 
+    backdrop-filter: blue(10px);
+    border-radius: 20px;
+   /* border: 2px inset white;*/
+    width: 450px;
+    height: 490px;
+    position:absolute;
+    left: 35%;
+    /* top: 100px; */
+    top: 130px;
+    transform: perspective(1000px) rotate(0deg);
+    transition: 0.2s;
+    /* align-items: center; */
+    /* justify-content: center; */
+
+}
+
+.container:hover{
+    transition: 0.1s;
+    transition: rotateY(0deg);
+    border: 2px solid white;
+}
+
+input{
+    margin-left: 75px;
+    margin-top: 20px;
+    width: 300px;
+    height: 55px;
+    transform: scale(1);
+    transition: 1s;
+    resize: none;
+    border: 2px solid white;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background:transparent;
+}
+
+textarea{
+    margin-left: 75px;
+    margin-top: 20px;
+    width: 300px;
+    height: 100px;
+    transform: scale(1);
+    transition: 0.3s;
+    resize: none;
+    border: 2px solid white;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+
+textarea:hover, input:hover{
+    transform: scale(1.1);
+    transition: 00.3s;
+    border: 2px solid white;
+}
+
+::-webkit-input-placeholder{
+    text-align: center;
+    color: white;
+}
+
+h1{
+    width: 200px;
+    margin-left: 120px;
+    margin-top: 40px;
+    color: white;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.h1{
+    justify-content: center;
+    text-align: center;
+}
+a{
+    margin-left: 75px;
+    margin-top: 15px;
+    float:left;
+    text-align: center;
+    width: 300px;
+    font: 3em;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: white !important;
+    border-radius: 50px;
+    border: 3px solid white;
+    transition: 0.35s ease all;
+    box-shadow: rgba(0,0,0,0.2) 0px 60px 40px -7px;
+}
+
+a:hover{
+    color: #000 !important;
+    background-color: white;
+    border-radius: 2px solid white !important;
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+.outer{
+    position: fixed;
+   /* background:linear-gradient(
+    0deg, #1488CC, #2B32B2 100%);*/
+    background: linear-gradient(0deg, #43cea2 0%, #185a9d 100%);
+
+    background-position: center center;
+    background-size: cover;
+    transform: scale(1.1);
+    display: table;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
