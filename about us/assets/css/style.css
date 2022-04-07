@@ -732,7 +732,15 @@ body{
 .about .content .read-more:hover {
   background: linear-gradient(180deg, #5846f9 0%, #7b27d8 100%);
 }
-
+/* image */
+/* .about .col-lg-4{
+height: auto;
+width: auto;
+/* justify-content: center; */
+/* display: flex; */
+/* align-items: center; */
+} */
+/* image end */
 .about .content .read-more i {
   font-size: 22px;
   position: absolute;
