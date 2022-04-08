@@ -34,6 +34,7 @@ header{
 }
 .header-top-info{
     background: var(--black);
+    /* background: linear-gradient(0deg, #43cea2 0%, #185a9d 100%); */
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -296,11 +297,14 @@ header{
 /* footer  */
 footer{
     background: var(--black);
+    /* background: linear-gradient(0deg, #43cea2 0%, #185a9d 100%); */
     color: #fff;
     padding: 4rem 0;
 }
 footer .row > div{
     text-align: center;
+    /* added */
+    /* color: #fff; */
 }
 footer .row > div:nth-child(1) img{
     width: 50px;
@@ -334,6 +338,7 @@ footer .row > div:nth-child(1) p{
 }
 .footer-links a{
     color: var(--lightBlack);
+    /* color: #fff; */
     display: block;
     margin: 0.6rem 0;
     transition: var(--transition);
@@ -343,6 +348,7 @@ footer .row > div:nth-child(1) p{
 }
 .footer-contact-info span{
     color: var(--lightBlack);
+    /* color: #fff; */
 }
 .footer-contact-info div{
     margin: 0.6rem 0;

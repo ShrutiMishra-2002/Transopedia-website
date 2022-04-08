@@ -739,7 +739,7 @@ width: auto;
 /* justify-content: center; */
 /* display: flex; */
 /* align-items: center; */
-} */
+/* } */
 /* image end */
 .about .content .read-more i {
   font-size: 22px;
@@ -1611,9 +1611,11 @@ p{
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background:linear-gradient(
+  /* background:linear-gradient(
     0deg
-    , rgb(189, 246, 255) 0%, rgb(146, 248, 187) 100%);
+    , rgb(189, 246, 255) 0%, rgb(146, 248, 187) 100%); */
+
+  background: linear-gradient(0deg, #43cea2 0%, #185a9d 100%);
   color: #222e85;
   font-size: 14px;
   text-align: center;
